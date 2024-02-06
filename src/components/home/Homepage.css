@@ -1,0 +1,237 @@
+
+/* #bee2b0 - light green */
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-md-6 {
+  padding: 10px;
+}
+
+/* Section 1 styles  swapnil-------------------------------------------------*/
+.section1 {
+  font-family: Poppins, Tahoma, Verdana, sans-serif;
+  background-color: #d2eae8;
+  background-image: url('HomeImages/photo (11).png');
+  background-size: cover;
+  padding: 60px 0px;
+  margin-top: -65px;
+}
+
+.section1 .section1-text {
+  text-align: left;
+  margin-left: 90px;
+  padding: 40px;
+  padding-left: 60px;
+}
+
+.section1 h1 {
+  font-family: Poppins, Tahoma, Verdana, sans-serif;
+  font-size: 4.7rem;
+  margin:20px;
+  font-weight: bold;
+  color: #ffffff;
+  shape-rendering: crispEdges;
+  text-shadow: 2px 2px 15px #0e494a;
+}
+
+.section1 h3{
+  font-family: Poppins, Tahoma, Verdana, sans-serif;
+  font-size: 2rem;
+  margin: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  shape-rendering: crispEdges;
+}
+.section1 p {
+  font-family: Poppins, Tahoma, Verdana, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+  shape-rendering: crispEdges;
+}
+
+.section1 img {
+  max-width: 80%;
+  shape-rendering: crispEdges;
+  position: relative;
+  /* bleed: 10px; */
+}
+
+/* Section 2 styles swapnil-------------------------------------------------------------*/
+
+.section2 {
+  font-family: Poppins, Tahoma, Verdana, sans-serif;
+  /* background-image: url('HomeImages/picture3.png'); */
+  background-color: #d2eae8;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  margin-top: -120px;
+  padding-bottom: 100px;
+}
+
+.section2-text{
+  margin-top: 140px;
+  text-align: left;
+  
+}
+
+.section2 h1{
+  text-align: left;
+  /* margin-left: 60px; */
+  padding-left: 60px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-family: Poppins, Tahoma, Verdana, sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #052d2e;
+}
+
+.button-section2 {
+  font-family: Poppins,Tahoma, Verdana, sans-serif;
+  background: #052d2e; 
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px 100px ;
+  margin-left: 60px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: end;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s ease;
+}
+
+.button-section2:hover {
+  transform: scale(1.1);
+}
+
+/* Section 3 styles swapnil------------------------------------------------------------------------------ */
+.section3 {
+  font-family: Poppins, Tahoma, Verdana, sans-serif;
+  background-color: #d2eae8;
+  padding: 40px;
+  background-size: cover;
+  
+  /* background-image: url('HomeImages/picture.png'); */
+}
+
+.section3 h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #000000;
+  margin: 5 0 0 0;
+  padding: 0 0 0 0x;
+  color: #052d2e;
+}
+
+.section3 p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+}
+
+.section3 .image1 {
+  width: 110%;
+  object-fit: contain;
+  padding-left: 80px;
+  margin: -7em 0 0 0 ;
+  
+}
+/* ---------------- */
+.section5{
+  font-family: Poppins, Tahoma, Verdana, sans-serif;
+  background-color: #d2eae8;
+  background-size: cover;
+  
+}
+.image-section4 {
+  width: 270%;
+}
+
+/* section-4 vanshika------------------------------------------------------------- */
+.section4 {
+  font-family: Poppins, Tahoma, Verdana, sans-serif;
+  padding: 50px;
+  background-size: cover;
+  /* background-image: url('HomeImages/picture.png'); */
+  background-color: #036d6e;
+}
+
+
+
+.card1-container {
+  display: flex;
+  justify-content: center; /* Align cards at the center horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap to next line if there is no space */
+  margin-bottom: 20px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center icons and text vertically */
+  justify-content: center; /* Center icons and text horizontally */
+  width: 13rem;
+  height: 13rem;
+  background: transparent;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  margin: 10px;
+  color: #000000; /* Set text color to white */
+}
+
+.fas {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.section4 p{
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card1:hover {
+  transform: scale(1.05);
+}
+
+
+/* extra swapnil ------------------------------------------------------------------*/
+
+/* button on homepage section-2*/
+.button {
+  font-family: Poppins,Tahoma, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffffff, #ffffff); 
+  color: #000000;
+  font-weight: bold;
+  padding: 12px 100px;
+  margin-left: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.button:hover {
+  background: linear-gradient(to right, #0e282f, #0a1a1f);
+}
+
+/* General styles */
+/* .home-container {
+  padding: 30px;
+} */

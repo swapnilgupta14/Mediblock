@@ -1,0 +1,72 @@
+/* Footer.css */
+
+/* global font size */
+:root {
+  --font-size: 30px;
+}
+
+/* Default styling */
+.footer-container {
+  background-color: #ffffff;
+  color: #052d2e;
+  padding: 40px 0;
+  /* Ensure content below the fixed header */
+  padding-top: 100px; /* Adjust this value based on your header's height */
+}
+
+.footer-title {
+  color: #343a40;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer-info {
+  margin-bottom: 15px;
+}
+
+.footer-social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social a {
+  color: #000000;
+  font-size: 18px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 767px) {
+  .footer-title {
+    font-size: 20px;
+  }
+
+  .footer-info,
+  .footer-social a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-container {
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-container {
+    padding: 20px 0;
+    /* Ensure content below the fixed header */
+    padding-top: 100px; /* Adjust this value based on your header's height */
+  }
+
+  .footer-title {
+    font-size: 22px;
+  }
+}

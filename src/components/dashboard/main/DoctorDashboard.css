@@ -1,0 +1,60 @@
+.doctor-dashboard {
+  background-color: #052d2e;
+  color: #fff;
+  padding: 20px;
+}
+
+.patient-list {
+  margin-bottom: 30px;
+}
+
+.patient-list h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.patient-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.patient-list li {
+  margin-bottom: 5px;
+}
+
+.appointment-schedules {
+  margin-bottom: 30px;
+}
+
+.appointment-schedules h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.appointment-schedules ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.appointment-schedules li {
+  margin-bottom: 5px;
+}
+
+.medical-records {
+  margin-bottom: 30px;
+}
+
+.medical-records h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.medical-records ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.medical-records li {
+  margin-bottom: 5px;
+}
+

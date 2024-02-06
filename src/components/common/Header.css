@@ -1,0 +1,44 @@
+
+/* Change trgb(255, 252, 252)r and scale of the navbar brand on hover */
+.navbar-brand:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Set the color of nav items */
+.nav-item {
+  color: #ffffff;
+  /* font-family: Poppins,Tahoma, Verdana, sans-serif; */
+}
+
+/* Change the color and scale of nav items on hover */
+.nav-item:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Change the color and scale of buttons on hover */
+.btn:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Adjust the padding for the navbar to push it from the left and right */
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  font-family: Poppins,Tahoma, Verdana, sans-serif;
+  background: transparent;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+/* Set the maximum width and center the container */
+.container-fluid {
+  max-width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}

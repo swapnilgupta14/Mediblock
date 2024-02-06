@@ -1,0 +1,98 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: poppins, sans-serif;
+  background-color: #052d2e;
+ 
+}
+
+.register-container {
+  width: 45%;
+  
+}
+
+.register-card {
+  background-color: #ffffff;
+  margin-top: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  flex: 2;
+  
+}
+
+.register-title {
+  
+  margin-bottom: 20px;
+  font-size: 24px;
+  padding-top: 10px;
+  font-weight: bolder;
+  color: #052d2e;
+  font-style: None;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  flex: 2;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.image-container {
+  flex: 2;
+  display: flex;
+  height: 590px;
+  width: 120px;
+  margin-left: -20px;
+  background-image: url("./picture\ \(59\).png");
+  background-size:cover;
+ 
+
+}
+
+.register-form {
+  flex: 2;
+  background-color: rgb(255, 255, 255);
+  margin-top: 1;
+  
+}
+
+.register-input {
+  flex: 2;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #052d2e;
+  border-radius: 4px;
+  margin-left: 30px;
+  width: 85%
+}
+
+.register-button {
+  width: 85%;
+  padding: 10px;
+  background-color: #052d2e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.login-link {
+  padding: 8px;
+  margin-top: 10px;
+  color: #052d2e;
+  font-style: None;
+  margin-left: 30px;
+}

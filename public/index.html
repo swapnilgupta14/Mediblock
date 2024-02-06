@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Trirong"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="#" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/picturesss (1).png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="stylesheet" href="css/animations.css" />
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <title>MediBlock</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- This is the target element for your React app -->
+    <script>
+      $(window).scroll(function() {
+        $('.card1').each(function() {
+          var cardPos = $(this).offset().top;
+          var topOfWindow = $(window).scrollTop();
+          if (cardPos < topOfWindow + 400) {
+            $(this).addClass("slideUp");
+          }
+        });
+      });
+    </script>
+    
+  </body>
+</html>
