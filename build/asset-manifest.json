@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Mediblock/static/css/main.c945e72a.css",
+    "main.js": "/Mediblock/static/js/main.c60cca75.js",
+    "static/media/NewPictures (3).gif": "/Mediblock/static/media/NewPictures (3).e93e6c378c8988413883.gif",
+    "static/media/picture (7).png": "/Mediblock/static/media/picture (7).de00e315bceb8bc26e66.png",
+    "static/media/picture (11).png": "/Mediblock/static/media/picture (11).93448b0140bca8dffaf8.png",
+    "static/media/picture (34).png": "/Mediblock/static/media/picture (34).fb06f00176878e4543e3.png",
+    "static/media/picture (59).png": "/Mediblock/static/media/picture (59).f2eba1ce284cc694f720.png",
+    "static/media/picture (58).png": "/Mediblock/static/media/picture (58).0cfe7bbe713c24f966c4.png",
+    "static/media/picture (10).png": "/Mediblock/static/media/picture (10).974abc34dbe8d774c9c8.png",
+    "static/media/picture (9).png": "/Mediblock/static/media/picture (9).6822c7d629c4a27f4743.png",
+    "static/media/picture (6).png": "/Mediblock/static/media/picture (6).1e310f2478c33d453909.png",
+    "static/media/photo (3).png": "/Mediblock/static/media/photo (3).20884e58096c4d52231f.png",
+    "static/media/picture (5).png": "/Mediblock/static/media/picture (5).1e1a095c104fa949197d.png",
+    "static/media/photo (11).png": "/Mediblock/static/media/photo (11).9fb7620323e7957f3cd8.png",
+    "static/media/picture (8).png": "/Mediblock/static/media/picture (8).85574eb7743a21a52cf5.png",
+    "static/media/react-bootstrap-carousel.eot": "/Mediblock/static/media/react-bootstrap-carousel.1a0fe919ea31a13740d3.eot",
+    "static/media/react-bootstrap-carousel.ttf": "/Mediblock/static/media/react-bootstrap-carousel.f41331129badd2b01fc7.ttf",
+    "index.html": "/Mediblock/index.html",
+    "static/media/react-bootstrap-carousel.woff": "/Mediblock/static/media/react-bootstrap-carousel.96e0693824065d5b7d56.woff",
+    "static/media/react-bootstrap-carousel.svg": "/Mediblock/static/media/react-bootstrap-carousel.190d0d1bf1c865be7a1b.svg",
+    "main.c945e72a.css.map": "/Mediblock/static/css/main.c945e72a.css.map",
+    "main.c60cca75.js.map": "/Mediblock/static/js/main.c60cca75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c945e72a.css",
+    "static/js/main.c60cca75.js"
+  ]
+}

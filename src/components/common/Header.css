@@ -1,44 +1,93 @@
-
 /* Change trgb(255, 252, 252)r and scale of the navbar brand on hover */
 .navbar-brand:hover {
-  color: #ffffff;
+  color: #000000;
   transform: scale(1.05);
 }
 
 /* Set the color of nav items */
-.nav-item {
-  color: #ffffff;
-  /* font-family: Poppins,Tahoma, Verdana, sans-serif; */
+.nav-item a {
+  color: #000000;
+  text-decoration: none; /* Remove underline */
 }
 
+.navbar-bg-blur {
+  backdrop-filter: blur(50px);
+}
+
+
+.development-banner {
+  background-color: #f00;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.mediblock-header{
+  margin-left: 50px !important;
+  margin-right: auto;
+  color: black !important;
+}
 /* Change the color and scale of nav items on hover */
-.nav-item:hover {
-  color: #ffffff;
+.nav-item a:hover {
+  color: #2b2828;
   transform: scale(1.05);
 }
 
 /* Change the color and scale of buttons on hover */
 .btn:hover {
-  color: #ffffff;
+  color: #3b3838;
   transform: scale(1.05);
 }
 
 /* Adjust the padding for the navbar to push it from the left and right */
 .navbar {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  font-family: Poppins,Tahoma, Verdana, sans-serif;
+  
+  font-family: 'Poppins', Tahoma, Verdana, sans-serif;
   background: transparent;
   font-weight: bold;
   font-size: 1.1rem;
-  color: #ffffff;
+  color: #000000;
+  position: fixed; /* Header stays at the top */
+  width: 100%; /* Fit the width of the page */
+  z-index: 1000;
 }
 
 /* Set the maximum width and center the container */
-.container-fluid {
+.container {
   max-width: 1450px;
-  margin-left: auto;
-  margin-right: auto;
-  
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Sticky Header */
+.app-header.sticky {
+  background-color: #333; /* Example color for sticky header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example shadow */
+}
+
+/* Navbar list */
+.navbar-nav {
+  display: flex; /* Use flexbox */
+  list-style-type: none; /* Remove bullet points */
+}
+
+/* Navbar items */
+.nav-item {
+  margin-right: 15px; /* Add spacing between items */
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  display: none; /* Hide dropdown menu by default */
+  position: absolute;
+  background-color: #f4f0f0; /* Example color */
+  padding: 10px;
+  z-index: 1000;
+  color: black;
+}
+
+/* Show dropdown menu when parent is hovered */
+.nav-item:hover .dropdown-menu {
+  display: block;
 }
