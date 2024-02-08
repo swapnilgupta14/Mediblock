@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mediblock/static/css/main.b157f6a1.css",
-    "main.js": "/Mediblock/static/js/main.c60cca75.js",
+    "main.css": "/Mediblock/static/css/main.7cbeca8a.css",
+    "main.js": "/Mediblock/static/js/main.33ee833a.js",
     "static/media/NewPictures (3).gif": "/Mediblock/static/media/NewPictures (3).e93e6c378c8988413883.gif",
     "static/media/picture (7).png": "/Mediblock/static/media/picture (7).de00e315bceb8bc26e66.png",
     "static/media/picture (11).png": "/Mediblock/static/media/picture (11).93448b0140bca8dffaf8.png",
@@ -20,11 +20,11 @@
     "index.html": "/Mediblock/index.html",
     "static/media/react-bootstrap-carousel.woff": "/Mediblock/static/media/react-bootstrap-carousel.96e0693824065d5b7d56.woff",
     "static/media/react-bootstrap-carousel.svg": "/Mediblock/static/media/react-bootstrap-carousel.190d0d1bf1c865be7a1b.svg",
-    "main.b157f6a1.css.map": "/Mediblock/static/css/main.b157f6a1.css.map",
-    "main.c60cca75.js.map": "/Mediblock/static/js/main.c60cca75.js.map"
+    "main.7cbeca8a.css.map": "/Mediblock/static/css/main.7cbeca8a.css.map",
+    "main.33ee833a.js.map": "/Mediblock/static/js/main.33ee833a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b157f6a1.css",
-    "static/js/main.c60cca75.js"
+    "static/css/main.7cbeca8a.css",
+    "static/js/main.33ee833a.js"
   ]
 }
